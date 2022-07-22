@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="header">
-      <p>Devices Tracking</p>
+      <p>Infovalid Sistemas</p>
     </header>
     <div id="app">
       <section v-if="errored">
@@ -12,7 +12,7 @@
       </section>
 
       <section v-else>
-        <div v-if="loading">Loading...</div>
+        <div v-if="loading">Carregando...</div>
         <Map
           v-else
           :center="{ lat, lng }"
