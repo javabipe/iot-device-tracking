@@ -44,7 +44,7 @@ export default {
   },
   mounted() {
     fetch(
-      "https://gist.githubusercontent.com/sanjmen/bd0ae432b98a746887dff5bc790818cd/raw/1d8363b1577e270af0765f8d99754a2b044874a3/devices.json"
+      "https://raw.githubusercontent.com/javabipe/iot-device-tracking/master/src/cameras.json"
     )
       .then(response => {
         if (response.status === 200) {
