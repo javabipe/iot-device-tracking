@@ -34,8 +34,8 @@ export default {
   },
   data() {
     return {
-      lat: -18.9220586,
-      lng: -48.3336056,
+      lat: -18.92205,
+      lng: -48.33360,
       devices: [],
       loading: true,
       errored: false,
