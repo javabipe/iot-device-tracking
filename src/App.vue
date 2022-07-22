@@ -1,18 +1,18 @@
 <template>
   <div>
     <header class="header">
-      <p>Infovalid Sistemas</p>
+      <p>Devices Tracking</p>
     </header>
     <div id="app">
       <section v-if="errored">
         <p>
-            Lamentamos, mas não podemos recuperar esta informação no
-            momento, tente novamente mais tarde
+          We're sorry, we're not able to retrieve this information at the
+          moment, please try back later
         </p>
       </section>
 
       <section v-else>
-        <div v-if="loading">Carregando...</div>
+        <div v-if="loading">Loading...</div>
         <Map
           v-else
           :center="{ lat, lng }"
