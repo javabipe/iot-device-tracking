@@ -1,18 +1,18 @@
 <template>
   <div>
     <header class="header">
-      <p>Devices Tracking</p>
+      <p>Infovalid Sistemas</p>
     </header>
     <div id="app">
       <section v-if="errored">
         <p>
-          We're sorry, we're not able to retrieve this information at the
-          moment, please try back later
+            Lamentamos, mas não podemos recuperar esta informação no
+            momento, tente novamente mais tarde
         </p>
       </section>
 
       <section v-else>
-        <div v-if="loading">Loading...</div>
+        <div v-if="loading">Carregando...</div>
         <Map
           v-else
           :center="{ lat, lng }"
@@ -34,12 +34,12 @@ export default {
   },
   data() {
     return {
-      lat: 47.41322,
-      lng: -1.219482,
+      lat: -18.9220586,
+      lng: -48.3336056,
       devices: [],
       loading: true,
       errored: false,
-      zoom: 6
+      zoom: 13
     };
   },
   mounted() {
