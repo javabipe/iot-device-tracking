@@ -39,7 +39,7 @@ export default {
       devices: [],
       loading: true,
       errored: false,
-      zoom: 6
+      zoom: 10
     };
   },
   mounted() {
